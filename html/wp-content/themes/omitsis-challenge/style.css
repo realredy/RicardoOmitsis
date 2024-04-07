@@ -1,0 +1,66 @@
+/*
+Theme Name: Omitsis Challenge
+Author: Omitsiss
+Author URI: https://www.omitsis.com
+Description: A basic theme to be improved in a technical challenge
+Requires at least: 6.4
+Tested up to: 6.5
+Requires PHP: 8.2
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: omitsis-challenge
+*/
+
+:root {
+	font-size: var(--wp--preset--font-size--normal);
+
+	@media (prefers-reduced-motion: no-preference) {
+		scroll-behavior: smooth;
+	}
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: var(--wp--preset--color--white);
+	color: var(--wp--preset--color--black);
+}
+
+a {
+	color: var(--wp--preset--color--vivid-cyan-blue);
+	text-decoration-color: transparent;
+
+	@media (prefers-reduced-motion: no-preference) {
+		transition: 0.3s text-decoration-color;
+	}
+}
+
+a:is(:hover, :focus) {
+	text-decoration-color: currentcolor;
+}
+
+/** Header */
+.site-header {
+	display: flex;
+	max-width: var(--container-width, 1400px);
+	margin-inline: auto;
+	padding: var(--wp--preset--spacing--40);
+}
+
+.site-header nav {
+	display: contents;
+}
+
+.primary-menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-inline-start: auto;
+}

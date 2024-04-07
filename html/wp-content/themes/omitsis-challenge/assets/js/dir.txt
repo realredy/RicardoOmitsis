@@ -1,0 +1,1 @@
+The assets/js/ dir is the place to put any additional JS files.
