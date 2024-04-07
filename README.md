@@ -53,14 +53,13 @@ For any of the required tasks we ask you to fulfill, we'd like you to:
 
 ### 0. Set up your coding environment
 
-- Fork this repository to your own Github account: TBA. This is where you'll create your branches, merge your changes, and lately send us a pull request from. Please keep your fork private. Clone to your machine.
-- Clone also this other repo which contains a docker setup similar to what we use for development: TBA.
+- Fork this repository to your own Github account: <https://github.com/omitsis/omitsis-challenge-wordpress>. This is where you'll create your branches, merge your changes, and lately send us a pull request from. Please keep your fork private. Clone to your machine.
+- Clone also this other repo which contains a docker stack similar to what we use for development: <https://github.com/omitsis/omitsis-challenge-stack>.
 - To ease the configuration of the docker containers, place the working copies as sibling directories. That is:
   ```
-	somewhere-in-my-hd
+	somewhere-in-your-hd
 	├── omitsis-challenge-stack
 	└── omitsis-challenge-wordpress
-		├── docs
 		├── dumps
 		├── html
 		└── README.md
