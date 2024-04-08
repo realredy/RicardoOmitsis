@@ -116,20 +116,20 @@ For any of the required tasks we ask you to fulfill, we'd like you to:
 
 Our initial project already includes some posts, which are shown on the homepage without any styling and not so much info as we'd like.
 
-Markup and style a responsive grid as shown in the following pictures. Notice that we'll appreciate keeping nesting to a minimum, semantic markup, and accessible styling.
+Markup and style a responsive grid as shown in the [following picture](./docs/img/grid-technical-challenge.png). Notice that we'll appreciate keeping nesting to a minimum, semantic markup, and accessible styling.
+
+- Note that this style must only apply to the posts archive listing
+- You'll need to show **every** post (of type `post`) in the site in this grid—only one page!
 
 A basic stylesheet is included in `wp-content/omitsis-challenge/style.css`. Add your CSS code there. Go as modern as you like! At this stage we'd like to know how well you manage custom properties, grid and/or flex layouts, and the most recent CSS features. We are not asking for backwards compatibility in this exercise, but the result must look alike both in Chromium and Firefox based browsers.
 
-Do not use any utility classes. No CSS libs allowed. Use BEM to name your classes. Avoid unnecessary nesting selectors.
-
-Do not care (too much) about design aspects not documented in the pictures.
-
+Do not use utility classes (we allow `.visually-hidden` though). No CSS libs allowed. Use BEM to name your classes. Avoid unnecessary nesting selectors.
 
 #### Bonus
 
 The task will be considered complete once the above requirements are fulfilled. But, if you feel like going for some extra, these are things we appreciate in our developments:
 
-- Create a custom media size and use it in your template.
+- Create an adequate custom media size to display the pictures in your template.
 - Can you reach a 100 score on Lighthouse performance?
 - Can you get the same behaviour without using any media query?
 
