@@ -84,6 +84,8 @@ For any of the required tasks we ask you to fulfill, we'd like you to:
 
 - Remember to estimate each task in advance, and annotate the actual time dedicated when ready.
 
+- Include a database dump of the final site in `dumps/result-YOURNAME.sql`
+
 - Send us a pull request from your fork when you consider this challenge complete.
 
 #### Regarding code style
