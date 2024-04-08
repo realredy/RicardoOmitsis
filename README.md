@@ -118,7 +118,7 @@ For any of the required tasks we ask you to fulfill, we'd like you to:
 
 Our initial project already includes some posts, which are shown on the homepage without any styling and not so much info as we'd like.
 
-Markup and style a responsive grid as shown in the [following picture](./docs/img/grid-technical-challenge.png). Notice that we'll appreciate keeping nesting to a minimum, semantic markup, and accessible styling.
+Markup and style a responsive grid as shown in the [following picture](./docs/img/grid-technical-challenge.jpg). Notice that we'll appreciate keeping nesting to a minimum, semantic markup, and accessible styling.
 
 - Note that this style must only apply to the posts archive listing
 - You'll need to show **every** post (of type `post`) in the site in this grid—only one page!
