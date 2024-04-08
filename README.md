@@ -41,7 +41,7 @@ You won't be asked to fulfill all the tasks, but some selected ones. We want to 
 
 Feel free to use any helpers you may need: usage of Copilot, ChatGPT, forums, etc. is totally allowed. But be aware that we'll ask you to explain your solutions. RTFM'ing is recommended.
 
-IMPORTANT: If you feel stuck on any step, please contact your instructors. They will help and guide you. We do not expect you to know all about everything, we are looking for people who is able to learn and grow.
+IMPORTANT: If you feel stuck on any step, please contact your instructors. They will help and guide you. We do not expect you to know everything, we are looking for people who are able to learn and grow.
 
 For any of the required tasks we ask you to fulfill, we'd like you to:
 
