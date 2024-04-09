@@ -230,7 +230,7 @@ The task will be considered complete once the above requirements are fulfilled. 
 ### E. Create a custom WP-CLI command
 
 - Create a custom plugin named `omitsis-challenge-cli`
-- Add a `WP_CLI` command `omitsis dump-expired`- Our database contains some hidden on the `wp_postmeta` table. Under the `meta_key` "expiration_date" we've saved an expiration date in ISO format. The `meta_key` "reputation" holds numeric values.
+- Add a `WP_CLI` command `omitsis dump-expired`- Our database contains some hidden post attributes in the `wp_postmeta` table. Under the `meta_key` "expiration_date" we've saved an expiration date in ISO format. The `meta_key` "reputation" holds numeric values.
 
 - The command will dump (more on the dump format later) posts which have all these characteristics:
   - `post_type` is "post"
