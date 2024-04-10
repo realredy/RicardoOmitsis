@@ -174,7 +174,7 @@ composer init --name "omitsis/wp-your-project-name-here" --author Omitsis --type
 composer config repositories.acf composer https://connect.advancedcustomfields.com
 
 # Set up the WPackagist repository.
-composer config repositories.wpackagist '{"type": "composer", "url": "<https://wpackagist.org>", "only": [ "wpackagist-plugin/*","wpackagist-theme/*" ]}'
+composer config repositories.wpackagist '{"type": "composer", "url": "https://wpackagist.org", "only": [ "wpackagist-plugin/*","wpackagist-theme/*" ]}'
 ```
 
 Those steps should get you a ready to use composer environment. Didn't work? Ask for help.
