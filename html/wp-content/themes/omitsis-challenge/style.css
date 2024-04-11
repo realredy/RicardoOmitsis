@@ -19,6 +19,10 @@ Text Domain: omitsis-challenge
 		scroll-behavior: smooth;
 	}
 }
+*{
+	font-family: 'helvetica', Courier, monospace;
+}
+
 
 *,
 *::before,
